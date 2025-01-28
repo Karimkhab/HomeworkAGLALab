@@ -46,6 +46,6 @@ if __name__ == "__main__":
         x, y, z = solve_system(mx)
         print(x,y,z)
     except ZeroDivisionError:
-        print("Divide by zero")
+        print("No solution")
     except ManySolution:
         print("Many solution")
